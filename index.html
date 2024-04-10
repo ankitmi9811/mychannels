@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Boxes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      /* background: url('images/background1.jpg') no-repeat center center fixed;
+      background-size: cover; */
+      background-color: black;
+    }
+    header, footer {
+      background: linear-gradient(to right, black, rgb(89, 197, 219));
+      color: #fff;
+      text-align: center;
+      padding: 40px 0;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      border-bottom: 0px solid #ccc; /* Add border bottom for container */
+    }
+    .box {
+      width: 200px;
+      height: 200px;
+      margin: 0 20px; /* Adjust margin to create space between boxes */
+      overflow: hidden;
+      position: relative;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+      border: 2px solid transparent; /* Initially transparent border */
+    }
+    .box:hover {
+      transform: scale(1.1);
+      border-color: #333; /* Change border color on hover */
+    }
+    .box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .box .content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+      box-sizing: border-box;
+      transition: transform 0.3s ease-in-out;
+      transform: translateY(100%);
+    }
+    .box:hover .content {
+      transform: translateY(0);
+    }
+    .box .content a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ROHAN (@rio34578) CHANNELS </h1>
+  </header>
+  <div class="container">
+    <div class="box">
+      <img src="images/image1.png" alt="Image 1">
+      <div class="content">
+        <a href="https://t.me/+S79TNzhWkdJ9mmKZ">Betfair Market Load</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/image2.png" alt="Image 2">
+      <div class="content">
+        <a href="https://t.me/+nXJMeqH5HBxkMjY1">Honey Club </a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/image3.png" alt="Image 1">
+      <div class="content">
+        <a href="https://t.me/+sVe-pboQU7NlZjFl">Alexender Sir...</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/image4.png" alt="Image 2">
+      <div class="content">
+        <a href="https://t.me/Ipl_Match_Astrology">Astrology Prediction</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="box">
+      <img src="images/image5.png" alt="Dream 11">
+      <div class="content">
+        <a href="https://t.me/IPL_DREAM_11_STATS">Dream 11 Fantasy</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/image6.png" alt="Sheldon Jackson">
+      <div class="content">
+        <a href="https://t.me/+DYY9oHOC8BQ3NWY1">Sheldon Jackson</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/image7.png" alt="Horse Racing Live Streaming">
+      <div class="content">
+        <a href="https://t.me/PUNE_HORSE_RACE_STREAMING">Horse Racing Live</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/image8.png" alt="Priyanka Mam">
+      <div class="content">
+        <a href="https://t.me/joinchat/SiWBPzmOshUNA331">Priyanka Mam </a>
+      </div>
+    </div>
+  </div>
+  
+
+  <footer>
+    <p>Developed by: @rio34578, #Rohan </p>
+  </footer>
+</body>
+</html>
